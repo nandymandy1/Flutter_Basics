@@ -1,0 +1,82 @@
+Column(
+        mainAxisAlignment: MainAxisAlignment.end,
+        crossAxisAlignment: CrossAxisAlignment.end,
+        children: <Widget>[
+          Row(
+            children: <Widget>[
+              Container(
+                padding: EdgeInsets.all(
+                  20.0,
+                ),
+                color: Colors.green,
+                child: Text(
+                  'One',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(
+                  20.0,
+                ),
+                color: Colors.blue,
+                child: Text(
+                  'One',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.all(
+                  20.0,
+                ),
+                color: Colors.red,
+                child: Text(
+                  'One',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          Container(
+            padding: EdgeInsets.all(
+              20.0,
+            ),
+            color: Colors.cyan,
+            child: Text(
+              'One',
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            ),
+          ),
+          Container(
+            padding: EdgeInsets.all(
+              30.0,
+            ),
+            color: Colors.pink,
+            child: Text(
+              'Two',
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            ),
+          ),
+          Container(
+            padding: EdgeInsets.all(
+              40.0,
+            ),
+            color: Colors.amber,
+            child: Text(
+              'Three',
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            ),
+          ),
+        ],
+      )

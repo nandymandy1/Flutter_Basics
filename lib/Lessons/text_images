@@ -1,0 +1,17 @@
+// child: Image.asset('assets/images/123.webp'),
+        child: Image.network(
+            'https://images.unsplash.com/photo-1572459181266-6bbd2ed6a3a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80'),
+        //     Image(
+        //   image: NetworkImage(
+        //       'https://images.unsplash.com/photo-1572459181266-6bbd2ed6a3a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80'),
+        // )
+        // Text(
+        //   "Hello Ninjas",
+        //   style: TextStyle(
+        //     fontSize: 20.0,
+        //     letterSpacing: 2.0,
+        //     color: Colors.grey[600],
+        //     fontFamily: 'IndieFlower',
+        //     fontWeight: FontWeight.bold,
+        //   ),
+        // ),

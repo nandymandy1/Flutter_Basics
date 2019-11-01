@@ -1,0 +1,24 @@
+Row(
+        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Text("Hello World"),
+          FlatButton(
+            onPressed: () {},
+            color: Colors.blue,
+            child: Text(
+              "Click Me",
+              style: TextStyle(
+                color: Colors.white,
+              ),
+            ),
+          ),
+          Container(
+            color: Colors.cyan,
+            padding: EdgeInsets.all(
+              30.0,
+            ),
+            child: Text("Something"),
+          )
+        ],
+      )
